@@ -1,0 +1,6 @@
+1 Delhi none 10 0 idle none
+2 Delhi none 8 0 idle none
+3 Delhi none 6 0 idle none
+4 Delhi none 10 0 idle none
+5 Delhi none 12 0 idle none
+6 Delhi none 6 0 idle none

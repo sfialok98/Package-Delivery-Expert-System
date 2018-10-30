@@ -1,0 +1,16 @@
+Kolkata Lucknow 2
+Lucknow Jaipur 1
+Lucknow Gangtok 1
+Gangtok Shimla 1
+Jaipur Shimla 1
+Gangtok Ooty 1
+Shimla Delhi 2
+Ooty Delhi 1
+Ooty Allahabad 2
+Delhi Allahabad 1
+Allahabad Chennai 2
+Delhi Amritsar 3
+Shimla Amritsar 3
+Chennai Amritsar 3
+Amritsar Mumbai 2
+Mumbai Kanyakumari 3

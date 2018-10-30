@@ -1,0 +1,163 @@
+Group No. - 8
+Artificial Intelligence
+Package Delivery Expert System
+
+***************
+EXAMPLE TRACKING
+***************
+
+Package 1 out for pickup at Delhi on Truck 3 at time 1
+Package 1 is being delivered to Jaipur on Truck 3 at time 1
+Package 1 has been delivered to Jaipur on Truck 3 at time 4. EXPECTED TIME WAS 15
+Package 2 out for pickup at Chennai on Truck 6 at time 4
+Package 2 is being delivered to Shimla on Truck 6 at time 7
+Truck 3 arrived back at Delhi at time 7
+Package 3 out for pickup at Kanyakumari on Truck 3 at time 8
+Package 2 has been delivered to Shimla on Truck 6 at time 12. EXPECTED TIME WAS 10
+Truck 6 arrived back at Delhi at time 14
+Package 3 is being delivered to Mumbai on Truck 3 at time 16
+Package 3 has been delivered to Mumbai on Truck 3 at time 19. EXPECTED TIME WAS 25
+Package 4 out for pickup at Mumbai on Truck 6 at time 20
+Truck 3 arrived back at Delhi at time 24
+Package 4 is being delivered to Delhi on Truck 6 at time 25
+Package 4 has been delivered to Delhi on Truck 6 at time 30. EXPECTED TIME WAS 30
+Truck 6 arrived back at Delhi at time 30
+Package 5 out for pickup at Ooty on Truck 2 at time 30
+Package 5 is being delivered to Delhi on Truck 2 at time 31
+Package 5 has been delivered to Delhi on Truck 2 at time 32. EXPECTED TIME WAS 40
+Truck 2 arrived back at Delhi at time 32
+Package 6 out for pickup at Delhi on Truck 3 at time 40
+Package 6 is being delivered to Lucknow on Truck 3 at time 40
+Package 6 has been delivered to Lucknow on Truck 3 at time 43. EXPECTED TIME WAS 45
+Truck 3 arrived back at Delhi at time 46
+Package 7 out for pickup at Jaipur on Truck 2 at time 65
+Package 7 is being delivered to Kolkata on Truck 2 at time 68
+Package 7 has been delivered to Kolkata on Truck 2 at time 71. EXPECTED TIME WAS 80
+Truck 2 arrived back at Delhi at time 76
+Package 8 out for pickup at Kolkata on Truck 6 at time 80
+Package 8 is being delivered to Gangtok on Truck 6 at time 85
+Package 8 has been delivered to Gangtok on Truck 6 at time 88. EXPECTED TIME WAS 100
+Truck 6 arrived back at Delhi at time 90
+Package 9 out for pickup at Shimla on Truck 3 at time 90
+Package 9 is being delivered to Kolkata on Truck 3 at time 92
+Package 9 has been delivered to Kolkata on Truck 3 at time 96. EXPECTED TIME WAS 110
+Truck 3 arrived back at Delhi at time 101
+Package 10 out for pickup at Amritsar on Truck 3 at time 110
+Package 11 out for pickup at Ooty on Truck 6 at time 110
+Package 11 is being delivered to Allahabad on Truck 6 at time 111
+Package 10 is being delivered to Allahabad on Truck 3 at time 113
+Package 11 has been delivered to Allahabad on Truck 6 at time 113. EXPECTED TIME WAS 120
+Truck 6 arrived back at Delhi at time 114
+Package 10 has been delivered to Allahabad on Truck 3 at time 117. EXPECTED TIME WAS 120
+Truck 3 arrived back at Delhi at time 118
+Package 12 out for pickup at Jaipur on Truck 6 at time 120
+Package 12 is being delivered to Kanyakumari on Truck 6 at time 123
+Package 12 has been delivered to Kanyakumari on Truck 6 at time 132. EXPECTED TIME WAS 150
+Truck 6 arrived back at Delhi at time 140
+Package 13 out for pickup at Mumbai on Truck 3 at time 150
+Package 14 out for pickup at Mumbai on Truck 6 at time 150
+Package 15 out for pickup at Mumbai on Truck 2 at time 150
+Package 15 is being delivered to Kolkata on Truck 2 at time 155
+Package 14 is being delivered to Gangtok on Truck 6 at time 155
+Package 13 is being delivered to Ooty on Truck 3 at time 155
+Package 13 has been delivered to Ooty on Truck 3 at time 161. EXPECTED TIME WAS 155
+Package 14 has been delivered to Gangtok on Truck 6 at time 161. EXPECTED TIME WAS 160
+Truck 3 arrived back at Delhi at time 162
+Truck 6 arrived back at Delhi at time 163
+Package 15 has been delivered to Kolkata on Truck 2 at time 164. EXPECTED TIME WAS 170
+Truck 2 arrived back at Delhi at time 169
+Package 16 out for pickup at Kolkata on Truck 6 at time 200
+Package 16 is being delivered to Lucknow on Truck 6 at time 205
+Package 16 has been delivered to Lucknow on Truck 6 at time 207. EXPECTED TIME WAS 210
+Truck 6 arrived back at Delhi at time 210
+Package 17 out for pickup at Lucknow on Truck 2 at time 220
+Package 17 is being delivered to Kolkata on Truck 2 at time 223
+Package 17 has been delivered to Kolkata on Truck 2 at time 225. EXPECTED TIME WAS 240
+Truck 2 arrived back at Delhi at time 230
+Package 18 out for pickup at Kolkata on Truck 4 at time 240
+Package 18 is being delivered to Kanyakumari on Truck 4 at time 245
+Package 20 out for pickup at Chennai on Truck 3 at time 250
+Package 19 out for pickup at Shimla on Truck 2 at time 250
+Package 19 is being delivered to Gangtok on Truck 2 at time 252
+Package 20 is being delivered to Jaipur on Truck 3 at time 253
+Package 19 has been delivered to Gangtok on Truck 2 at time 253. EXPECTED TIME WAS 260
+Truck 2 arrived back at Delhi at time 255
+Package 18 has been delivered to Kanyakumari on Truck 4 at time 257. EXPECTED TIME WAS 300
+Package 20 has been delivered to Jaipur on Truck 3 at time 259. EXPECTED TIME WAS 270
+Truck 3 arrived back at Delhi at time 262
+Truck 4 arrived back at Delhi at time 265
+
+
+**************
+EXAMPLE REPORT
+**************
+
+The following is the final generated report by the source:
+
+TRUCK REPORT:
+
+  TruckIndex      TotalWaitTime     TotalBusyTime        %TimeBusy             #Pkgs      Non.DeliveryTime      %OfBusyTimeDelivering     WeightedAvgOfTruckOccupied 
+           1               265                0             0.00%                 0                 0                  0.00%                   0.00%     
+           2               218               47            17.74%                 5                31                 34.04%                  55.47%     
+           3               194               71            26.79%                 7                42                 40.85%                  46.55%     
+           4               240               25             9.43%                 1                13                 48.00%                  90.00%     
+           5               265                0             0.00%                 0                 0                  0.00%                   0.00%     
+           6               188               77            29.06%                 7                45                 41.56%                  57.81%     
+
+
+PACKAGE REPORT:
+
+PackageIndex      WaitTime     PickUpTime     DeliveryTime      IsLate?      LateTime      
+     1              0             1                 4                -             0      
+     2              3             7                12             LATE             2      
+     3              8            16                19                -             0      
+     4              5            25                30                -             0      
+     5              1            31                32                -             0      
+     6              0            40                43                -             0      
+     7              3            68                71                -             0      
+     8              5            85                88                -             0      
+     9              2            92                96                -             0      
+    10              3           113               117                -             0      
+    11              1           111               113                -             0      
+    12              3           123               132                -             0      
+    13              5           155               161             LATE             6      
+    14              5           155               161             LATE             1      
+    15              5           155               164                -             0      
+    16              5           205               207                -             0      
+    17              3           223               225                -             0      
+    18              5           245               257                -             0      
+    19              2           252               253                -             0      
+    20              3           253               259                -             0      
+
+
+
+AVERAGE REPORT:
+
+Average Wait Time/Package = 3.35
+#Packages on time = 17
+#Late = 3
+Avg Lateness FOR ALL PACKAGES = 0.45
+Avg Lateness FOR LATE PACKAGES = 3.0
+
+
+
+===============================
+OTHER DETAILS ABOUT THE PROJECT
+===============================
+
+
+For package delivery, the best fit heuristics is applied. 
+Therefore the truck with the least space left if taking
+in the package is sent for pickup and not the truck with least
+index number. This ensures the bigger capacity truck is saved for
+larger packages.
+
+The global time fact is represented by (time n).
+All idle trucks are in sync with the global time.
+
+
+
+
+
+
+
